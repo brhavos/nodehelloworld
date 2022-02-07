@@ -5,7 +5,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello World! Carlos, seja bem vindo ao Node.JS, Heroku & Cia!')
+  response.send('Hello World! Tirei o readme...')
 })
 
 app.listen(app.get('port'), function() {
